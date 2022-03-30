@@ -50,6 +50,6 @@ public class MyHashSet implements SetInterface {
 
     @Override
     public String[] toArray() {
-        return new String[0];
+        return map.keySet().toArray(new String[0]);
     }
 }

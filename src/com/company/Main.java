@@ -32,6 +32,8 @@ public class Main {
     System.out.println(set);
     System.out.println(set.contains("seven"));
 
+  //  System.out.println(set.toArray());
+
 
 
     set.clear();
